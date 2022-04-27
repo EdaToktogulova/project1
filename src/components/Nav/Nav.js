@@ -1,8 +1,10 @@
+import React from "react";
 import "./Nav.css"
 
 function Nav() {
    return (
-      <nav>
+      <nav className="Nav">
+                  <div><a>Perfume shop</a></div>
          <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/">Top</a></li>

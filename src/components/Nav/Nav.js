@@ -1,19 +1,20 @@
 import React from "react";
 import Logo from "../ui/Logo/Logo";
 import "./Nav.css"
+import NavItem from "./NavItem/NavItem";
 
 function Nav() {
    return (
       <nav className="Nav">
          <Logo />
          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Top</a></li>
-            <li><a href="/">Discounts</a></li>
-            <li><a href="/">Novelty</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Category</a></li>
-            <li><a href="/">Catalog</a></li>
+            <NavItem url="/">Home</NavItem>
+            <NavItem url="/">Top</NavItem>
+            <NavItem url="/">Discounts</NavItem>
+            <NavItem url="/">Novelty</NavItem>
+            <NavItem url="/">About</NavItem>
+            <NavItem url="/">Category</NavItem>
+            <NavItem url="/">Catalog</NavItem>
          </ul>
       </nav>
    );

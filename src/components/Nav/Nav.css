@@ -3,17 +3,21 @@
    align-items: center;
    justify-content: space-between;
    background-color: white;
-   padding: 0 1rem;
+}
+.Nav .Logo {
+   padding: 0 1.5rem;
+   font-size: 1.5rem;
+
 }
 .Nav ul {
    list-style: none;
-   padding: 0;
+   padding: 0 1.5rem;
    margin: 0;
    display: flex;
 }
 .Nav a{
    display: block;
-   padding: .5rem 1rem;
-   font-size: .8rem;
+   padding: 1rem 1.5rem;
+   font-size: 1.2rem;
    text-decoration: none;
 }

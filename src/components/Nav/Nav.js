@@ -1,12 +1,13 @@
 import React from "react";
 import Logo from "../ui/Logo/Logo";
-import "./Nav.css"
+import classes from "./Nav.module.css"
 import NavItem from "./NavItem/NavItem";
+import NavToggle from "./NavToggle/NavToggle";
 
 function Nav() {
    return (
-      <nav className="Nav">
-         <div className="container">
+      <nav className={classes.Nav}>
+         <div className={classes.container}>
             <Logo />
             <ul>
                <NavItem url="/">Home</NavItem>
@@ -17,6 +18,7 @@ function Nav() {
                <NavItem url="/category">Category</NavItem>
                <NavItem url="/catalog">Catalog</NavItem>
             </ul>
+            <NavToggle />
          </div>
       </nav>
    );

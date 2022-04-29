@@ -2,10 +2,9 @@
    position: relative;
    margin-bottom: 4rem;
 }
-
 .Header img {
    width: 100%;
-   height: 70vh;
+   height: 80vh;
    min-height: 380px;
    object-fit: cover;
    object-position: center;

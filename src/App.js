@@ -1,17 +1,16 @@
 import React from "react";
-import Footer from "./Footer";
-import Header from "./Header";
-import Navbar from "./Navbar";
+import "./App.css"
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Profile from "./components/Profile";
 
 
-function App() {
+const App = () => {
   return (
-    <div>
-
+    <div className="app-wrapper">
       <Header />
-      <Footer />
       <Navbar />
-      
+      <Profile />
     </div>
   );
 }
